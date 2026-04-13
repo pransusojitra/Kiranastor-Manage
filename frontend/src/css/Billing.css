@@ -1,0 +1,137 @@
+.billing-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a3568;
+}
+
+.billing-subtitle {
+  color: #61759b;
+  margin-bottom: 0;
+}
+
+.billing-card,
+.billing-result-card,
+.billing-history-card {
+  border-radius: 0.9rem;
+}
+
+.add-item-btn {
+  font-weight: 600;
+}
+
+.billing-cart-table-wrap {
+  margin-top: 1rem;
+}
+
+.billing-cart-table thead th {
+  background: #edf2ff;
+  color: #26427f;
+  border: 0;
+}
+
+.billing-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.billing-photo-empty {
+  color: #6a7d9f;
+  font-size: 0.8rem;
+}
+
+.cart-qty-input {
+  max-width: 90px;
+}
+
+.billing-total-wrap {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.billing-total-label {
+  font-weight: 600;
+  color: #354f7f;
+}
+
+.billing-total-value {
+  font-weight: 700;
+  color: #142e63;
+}
+
+.submit-btn {
+  background: #1f4fb3;
+  color: #fff;
+  border: 0;
+}
+
+.submit-btn:hover {
+  background: #173e8e;
+  color: #fff;
+}
+
+.billing-result-title {
+  color: #1c3b78;
+  font-weight: 700;
+}
+
+.billing-result-empty {
+  margin: 0;
+  color: #6a7d9f;
+}
+
+.billing-product-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px dashed #bdcae5;
+  border-radius: 0.75rem;
+  padding: 0.6rem;
+}
+
+.billing-preview-image {
+  width: 54px;
+  height: 54px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.billing-preview-text {
+  color: #334d7a;
+}
+
+.billing-final-box,
+.billing-history-total-box {
+  background: #e9f0ff;
+  color: #193c7f;
+  font-weight: 700;
+  border-radius: 0.65rem;
+  padding: 0.65rem 0.85rem;
+}
+
+.billing-history-title {
+  color: #1c3b78;
+  font-weight: 700;
+}
+
+.billing-history-subtitle {
+  color: #6a7d9f;
+  font-size: 0.92rem;
+}
+
+.billing-history-table thead th {
+  background: #edf2ff;
+  color: #26427f;
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  .billing-cart-table,
+  .billing-history-table {
+    min-width: 820px;
+  }
+}
