@@ -71,14 +71,6 @@ cd backend
 npm install
 ```
 
-Create/update `.env` in `backend`:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/kirana-crm
-STORE_NAME=Kirana Store
-```
-
 Run backend:
 
 ```bash
